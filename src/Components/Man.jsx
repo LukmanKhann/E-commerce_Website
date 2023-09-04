@@ -2,6 +2,7 @@ import { useState } from "react";
 import productsData from "./db.json"
 import style from "./man.module.css"
 import { Link } from "react-router-dom";
+import { useCart } from "./CartContext";
 const Man = () => {
     const [cart, setCart] = useState([]);
   
@@ -9,6 +10,10 @@ const Man = () => {
   const addToCart = (product) => {
     setCart([...cart, product]);
   };
+
+  // const { cart, addToCart } = useCart();
+
+  
   return (
     <div id={style.maincontainer}>
     <div id={style.dropdownmenu}>
