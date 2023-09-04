@@ -1,0 +1,35 @@
+[
+    {
+        "id" :1,
+        "name" : "APPLE iPhone 12 (Starlight, 128 GB)",
+        "price" : 4655,
+        "image": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Background-Image.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor"
+    },
+     {
+        
+        "id" :2,
+        "name" : "product2",
+        "price" : 1165,
+        "image": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Background-Image.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor"
+
+    },
+     {
+        "id" :3,
+        "name" : "product3",
+        "price" : 46965,
+        "image": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Background-Image.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor"
+
+    }
+]

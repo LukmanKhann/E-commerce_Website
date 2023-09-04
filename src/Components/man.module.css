@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#maincontainer{
+    background-color: brown;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 800px;
+}
+#productcontainer{
+    /* background-color: aquamarine; */
+}   
+
+
+#mainlistcontainer{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 700px; */
+    width: 100%;
+}
+#productlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin-bottom: 3px;
+    width: 70%;
+    height: 300px;
+}
+#productlist>div>img{
+    height: 210px;
+    width: 210px;
+    margin-top: 40px;
+}
+
+
+/* inside productlist container */
+
+#imagecontainer{
+height: 300px;
+width: 200px;
+background-color: red   ;
+}
+#listcontainer{
+    height: 200px;
+    width: 100%;
+}
+#listcontainer>li{
+    list-style-type: none;
+    margin-top: 6px;
+}
+#listcontainer>button{
+   margin-top: 60px;
+   margin-right: 45px;
+   height: 34px;
+   width: 130px;
+   border: 0px solid;
+   border-radius: 2px;
+}
+
+
+/* drop down menu section */
+#dropdownmenu{
+    height: 30px;
+    
+}
+#dropdownmenu>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* #dropdownmenu>ul>li>ul>li{
+display: none;
+}
+#dropdownmenu>ul>li>ul>li:hover{
+    display: block;
+} */
