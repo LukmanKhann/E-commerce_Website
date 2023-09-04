@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.6s ease ;
+    
+}
+
+#maincontainer{
+    /* background-color: aqua; */
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leftdiv{
+    /* background-color: blue; */
+    height: 500px;
+    width: 450px;
+   background-image: url("https://images.unsplash.com/photo-1654573817889-296cad084c97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2062&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ border: 1px solid #ffeded;
+ box-shadow: 2px 4px 15px black;
+}
+#rightdiv{
+    box-shadow: 2px 2px 5px black;
+    /* background-color: aquamarine; */
+    height: 500px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formdiv{
+    /* height: 495px; */
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formdiv>form{
+background-color: rgb(255, 255, 255);
+height: 499px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+#formdiv>form>input{
+    text-align: center;
+height: 32px;
+width: 260px;
+border-radius: 6px;
+border: 1px solid rgb(190, 198, 255);
+margin-bottom: 9px;
+box-shadow: 1px 1px 2px black;
+}
+#formdiv>form>input:hover{
+    background-color: rgb(211, 211, 232);
+    border: 1px solid #7a70b5;
+}
+
+
+#formdiv>form>label{
+    margin-bottom: 7px;
+}
+#headinglogin{
+  
+    position: relative;
+    bottom: 60px;
+    right: 180px;
+}
+#para{
+    position: relative;
+    bottom: 40px;
+    right: 75px;
+}
+
+#forgotpassword{
+   font-size: small;
+   position: relative;
+   left: 80px;
+}
+#forgotpassword>a{
+    color: rgb(30, 30, 204);
+    text-decoration: none;
+}
+#forgotpassword>a:hover{
+    text-decoration: underline;
+}
+
+/* utility class */
+.btn{
+    margin-top: 15px;
+    height: 35px;
+    width: 130px;
+    border-radius: 2px;
+    border: 1px solid rgb(20, 7, 255);
+    padding: 6px;
+    cursor: pointer;
+    background-color: white;
+   box-shadow: 1px 2px 6px grey;
+    color: rgb(56, 49, 49);
+
+}
+.btn>a{
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+.btn>a:hover{
+    color: white;
+}
+
+
+/* product details section */
+
+
+
