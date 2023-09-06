@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 #mainbox{
-    background-color: rgb(158, 211, 153);
+    /* background-color: rgb(158, 211, 153); */
     height: 900px;
+    background-color: rgb(241,243,246);
+    
     
 }
 #box1{
-    background-color: rgb(74, 74, 248);
+    /* background-color: rgb(74, 74, 248); */
     height: 700px;
 width: 100%;
 display: flex;
@@ -20,16 +22,19 @@ align-items: center;
 
 #box2{
    
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background-color:rgb(255,255,255); 
     width: 900px;
     height: 450px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     position: relative;
-left: 100px;
-overflow: auto;
-max-height: 500px;
+left: 100px; 
+  overflow: auto;
+max-height: 500px; 
+box-shadow: 1px 1px 1px rgb(218, 210, 210);
+
    
 }
 #box3>img{
@@ -38,20 +43,69 @@ max-height: 500px;
 }
 #box4>li{
     margin-top: 3px;
-    
+    position: relative;
+    top: 12px;
 }
 #box4>button{
-    border-radius: 5px;
+    border-radius: 2px;
     height: 30px;
     width: 140px;
     /* margin-top: 60px; */
     position: relative;
-    top: 30px;
-    left: 10px;
+    top: 92px;
+    left: 200px;
+    border: 0px solid; 
+    background-color: rgb(99, 98, 98);
+    color: white;
 }
 
 #box5{
-    background-color: burlywood;
-    height: 200px;
-    width: 300px;
+    background-color:rgb(255,255,255); 
+    height: 450px;
+    width: 450px;
+   position: relative;
+   left: 130px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 1px 1px 1px rgb(218, 210, 210);
+}
+#box5>#abox5>li{
+    list-style-type: none;
+    margin: 28px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+/* #box5>button{
+    height: 50px;
+    width: 230px;
+   margin-top: 50px;
+   border: 0px solid;
+   margin-left: 100px;
+   
+} */
+#box5>#bbox5>li{
+    list-style-type: none;
+    margin: 28px;
+}
+#abox5{
+/* border: 2px solid red; */
+height: 450px;
+width: 330px;
+}
+#bbox5{
+/* border: 2px solid purple; */
+height: 450px;
+}
+#abox5>button{
+    height: 50px;
+    width: 230px;
+   margin-top: 50px;
+   border: 0px solid;
+   margin-left: 100px;  
+   background-color: rgb(251,100,27);
+   color: rgb(255, 255, 255);
+   border-radius: 2px;
+   
 }

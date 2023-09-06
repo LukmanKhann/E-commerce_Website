@@ -11,7 +11,24 @@ body, ul {
 
 /* Navigation bar styles */
 .navbar {
-    background-color: #333;
+    
+    /* background-color: rgb(94, 117, 216); */
+    /* background: linear-gradient(135deg, #a6c0fe, #ffffff); */
+    /* background: linear-gradient(135deg, #0033a0, #66a3ff); */
+    /* background: linear-gradient(135deg, #001f3f, #ffffff); */
+    /* background: rgb(232,17,104); */
+/* background: radial-gradient(circle, rgba(232,17,104,1) 15%, rgba(228,20,107,1) 32%, rgba(124,104,201,1) 76%, rgba(80,0,19,1) 95%); */
+
+
+background: linear-gradient(#7b8fc9,#0f83ff);
+
+
+
+
+
+
+
+
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -45,5 +62,10 @@ body, ul {
 }
 
 .navlist a:hover {
-    color: #ff6600; /* Change the color on hover */
+    color: #b4afaf; /* Change the color on hover */
+}
+
+#logo>img{
+    height: 50px;
+    width: 50px;
 }

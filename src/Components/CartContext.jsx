@@ -1,28 +1,34 @@
-import { createContext, useContext, useState } from "react"
+// CartContext.js
+import React, { createContext, useContext, useState } from "react";
 
- const CartContext = createContext()
-    export const useCart = ()=>{
-        return useContext(CartContext)
-    }
+// Create a context
+const CartContext = createContext();
 
-export const CartProvider = ({children}) => {
-    const [cart,setCart] = useState([]) 
-     
-     const addItemToCart = (product)=>{
-setCart([...cart,product])
-     }
-    const removeFromCart =(productId)=>{
-        const updateCart = cart.filter((item)=>item.id !==productId)
-        setCart(updateCart)
-    }
+// Create a context provider
+export const CartProvider = ({ children }) => {
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (product) => {
+    setCart([...cart, product]);
+  };
+
+  const removeFromCart = (productId) => {
+    const updatedCart = cart.filter((item) => item.id !== productId);
+    setCart(updatedCart);
+  };
+
   return (
-    <div>
-        <CartContext.Provider value = {{ cart, addItemToCart, removeFromCart}}>
-            {children}
-        </CartContext.Provider>
-      
-    </div>
-  )
-}
+    <CartContext.Provider value={{ cart, addToCart, removeFromCart }}>
+      {children}
+    </CartContext.Provider>
+  );
+};
 
-export default CartContext
+// Create a custom hook to use the cart context
+export const useCart = () => {
+  const context = useContext(CartContext);
+  if (!context) {
+    throw new Error("useCart must be used within a CartProvider");
+  }
+  return context;
+};

@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom"
 
-
+import style from "./home.module.css"
 const Home = () => {
   return (
     <div>
-      <ul>
-        <li>
-         iam home
-        </li>
-      </ul>
+     <div className={style.slider}>
+
+     </div>
     </div>
   )
 }
