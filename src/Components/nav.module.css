@@ -70,9 +70,9 @@ background-color: #0f83ff;
     color: #b4afaf; /* Change the color on hover */
 }
 
-#logo>img{
-    height: 50px;
-    width: 50px;
+#logo>a>img{
+    height: 30px;
+    width: 100px;
 }
 
 #logo>input{

@@ -19,15 +19,19 @@ const ShoppingCart = () => {
   const handleRemoveFromCart = () => {
     removeFromCart(selectedProduct.id);
   };
-
+        let price =  parseInt(selectedProduct.price)
+        let discount =  parseInt(selectedProduct.discount)
+        let deliverycharge =  parseInt(selectedProduct.deliverycharge)
+        let packagefee =  parseInt(selectedProduct.packagefee)
+       console.log( typeof price, typeof discount)
 
 
    // Calculate the total amount of charges
-   const totalPrice = selectedProduct.price;
-   const totalDiscount = selectedProduct.discount;
-   const totalDeliveryCharge = selectedProduct.deliverycharge;
-   const totalPackageFee = selectedProduct.packagefee;
-   const totalAmount = totalPrice - totalDiscount + totalDeliveryCharge + totalPackageFee;
+  //  const totalPrice = price;
+  //  const totalDiscount = discount;
+  //  const totalDeliveryCharge = deliverycharge;
+  //  const totalPackageFee = packagefee;
+   const totalAmount = price - discount + deliverycharge + packagefee;
 
    let handleCheckout = ()=>{
     console.log("handle checkout is called");

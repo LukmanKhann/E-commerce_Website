@@ -117,7 +117,10 @@ const Man = () => {
           <button  id={style.buybtn}> <a href=""><i class="fa-solid fa-bolt"></i> Buy Now</a></button>
             </div>
             <div id={style.pricebox}>
-
+          <h4><strong>${product.price}</strong></h4> <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="" />
+          <li>Free delivery by <strong>Today</strong></li>
+          <li>Upto $6,050 off on Exchange </li>
+          <strong ><span id={style.bankoffertext} >Bank Offer</span></strong>
             </div>
           </div>
            </div>

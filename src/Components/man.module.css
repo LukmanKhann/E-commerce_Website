@@ -182,10 +182,30 @@ z-index: 100;
 }
 
 #listcontainer>#pricebox{
-    height: 285px;
-    width: 450px;
-    background-color: red;
+    height: 270px;
+    width: 430px;
+    /* background-color: red; */
+    /* margin-left: 10px; */
 }
 #listcontainer>#listbox{
     height: 200px;
+}
+#pricebox>li{
+    list-style-type: none;
+}
+#pricebox>h4{
+    display: inline-block;
+}
+#pricebox>img{
+    height: 22px;
+    width: 70px;
+    margin-left: 60px;
+    margin-bottom: 12px;
+    /* text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none; */
+}
+#bankoffertext{
+    color: green;
 }
