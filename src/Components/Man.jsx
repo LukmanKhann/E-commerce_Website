@@ -105,14 +105,20 @@ const Man = () => {
            <div id={style.imagecontainer}><img  src={product.image} alt=""  /></div>
           
           <div id={style.listcontainer}>
+            <div id={style.listbox}>
             <li><strong>{product.name}</strong></li>
             <li>{product.ram}</li>
             <li>{product.rom}</li>
             <li>{product.camera}</li>
             <li>{product.processor}</li>
+              
             
           <button id={style.addbtn} onClick={() => addToCart(product)}><Link to={`/shoppingcart/${product.id}`}><i class="fa-solid fa-cart-shopping"></i>Add To Cart</Link></button>
           <button  id={style.buybtn}> <a href=""><i class="fa-solid fa-bolt"></i> Buy Now</a></button>
+            </div>
+            <div id={style.pricebox}>
+
+            </div>
           </div>
            </div>
             </div>

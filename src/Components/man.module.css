@@ -31,7 +31,8 @@
     align-items: center;
     position: relative;
     top: 4px;
-    background-color: rgb(246,246,246);
+    /* background-color: rgb(246,246,246); */
+    /* background-color: aqua; */
     margin-bottom: 2px;
     width: 70%;
     height: 300px;
@@ -42,6 +43,8 @@
     height: 210px;
     width: 210px;
     margin-top: 40px;
+   
+    /* background-color: blue; */
 }
 
 
@@ -55,24 +58,28 @@ background-color: rgb(246,246,246);
 #listcontainer{
     height: 200px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#listcontainer>#buybtn{
+#listcontainer>div>#buybtn{
     background-color: rgb(251,100,27);
     font-size: small;
     font-weight: 500;
     
     box-shadow: 1px 1px 1px rgb(171, 166, 166);
 }
-#listcontainer>#buybtn>a{
+#listcontainer>div>#buybtn>a{
     color: rgb(245, 236, 236);
 }
-#listcontainer>#addbtn{
+
+#listcontainer>div>#addbtn{
     background-color: rgb(255,159,0);
     font-size: small;
     font-weight: 500;
     box-shadow: 1px 1px 1px rgb(171, 166, 166);
 }
-#listcontainer>#addbtn>a{
+#listcontainer>div>#addbtn>a{
     color:rgb(245, 236, 236) ;
 }
 #listcontainer>li{
@@ -80,7 +87,7 @@ background-color: rgb(246,246,246);
     margin-top: 6px;
 }
 
-#listcontainer>button{
+#listcontainer> div>button{
    margin-top: 60px;
    margin-right: 45px;
    height: 34px;
@@ -165,11 +172,20 @@ z-index: 100;
     /* text-decoration: underline; */
 }
 
-#listcontainer>#addbtn:hover{
+#listcontainer>div>#addbtn:hover{
     transform: translateY(-3px);
     box-shadow: 1px 1px 2px rgb(167, 158, 158);
 }
-#listcontainer>#buybtn:hover{
+#listcontainer>div>#buybtn:hover{
     transform: translateY(-3px);
     box-shadow: 1px 1px 2px rgb(167, 158, 158);
+}
+
+#listcontainer>#pricebox{
+    height: 285px;
+    width: 450px;
+    background-color: red;
+}
+#listcontainer>#listbox{
+    height: 200px;
 }

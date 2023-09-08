@@ -1,41 +1,138 @@
 [
     {
         "id" :1,
-        "name" : "APPLE iPhone 12 (Starlight, 128 GB)",
-        "price" : 4655,
+        "name" : "APPLE I PHONE 12 (Starlight, 128 GB)",
+        "price" : 85000,
         "image": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Background-Image.png",
         "camera":"12MP + 12MP | 12MP Front Camera",
         "ram": "6 GB RAM",
         "rom" : "128 GB ROM",
         "processor" : "A14 Bionic Chip Processor",
-        "discount":2999,
+        "discount":1639,
         "deliverycharge":40,
         "packagefee":40
     },
      {
         
         "id" :2,
-        "name" : "product2",
-        "price" : 1165,
-        "image": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Background-Image.png",
+        "name" : "ACER",
+        "price" : 12399,
+        "image": "https://www.pngarts.com/files/4/Phone-Transparent-Background-PNG.png",
         "camera":"12MP + 12MP | 12MP Front Camera",
         "ram": "6 GB RAM",
         "rom" : "128 GB ROM",
         "processor" : "A14 Bionic Chip Processor",
-        "discount":2999,
+        "discount":1999,
         "deliverycharge":40,
         "packagefee":40
     },
      {
         "id" :3,
-        "name" : "product3",
-        "price" : 46965,
-        "image": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Background-Image.png",
+        "name" : "GOOGLE PIXEL 4a",
+        "price" : 45999,
+        "image": "https://www.pngarts.com/files/11/Android-Google-Pixel-Phone-PNG-Transparent-Image-279x279.png",
         "camera":"12MP + 12MP | 12MP Front Camera",
         "ram": "6 GB RAM",
         "rom" : "128 GB ROM",
         "processor" : "A14 Bionic Chip Processor",
-        "discount":2999,
+        "discount":1539,
+        "deliverycharge":40,
+        "packagefee":40
+
+    }
+    ,
+    {
+        "id" :4,
+        "name" : "SAMSUNG",
+        "price" : 62000,
+        "image": "https://www.pngmart.com/files/7/Mobile-Phone-Download-PNG-Image.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor",
+        "discount":1169,
+        "deliverycharge":40,
+        "packagefee":40
+
+    },
+    {
+        "id" :5,
+        "name" : "BLACK BERRY",
+        "price" : 35000,
+        "image": "https://www.pngmart.com/files/7/Blackberry-Mobile-PNG-Picture.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor",
+        "discount":1599,
+        "deliverycharge":40,
+        "packagefee":40
+
+    }
+    ,{
+        "id" :6,
+        "name" : "ASUS",
+        "price" : 37999,
+        "image": "https://www.freepnglogos.com/uploads/smartphone-png/asus-smartphone-mobile-png-6.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor",
+        "discount":999,
+        "deliverycharge":40,
+        "packagefee":40
+
+    }
+    ,{
+        "id" :7,
+        "name" : "ARCHOS DIAMOND",
+        "price" : 22999,
+        "image": "https://www.freepnglogos.com/uploads/smartphone-png/smartphone-archos-diamond-smartphones-overview-23.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor",
+        "discount":1399,
+        "deliverycharge":40,
+        "packagefee":40
+
+    }
+    ,{
+        "id" :8,
+        "name" : "HTC SMARTPHONE SERIES X",
+        "price" : 16000,
+        "image": "https://www.pngmart.com/files/7/Mobile-Phone-PNG-Clipart.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor",
+        "discount":499,
+        "deliverycharge":40,
+        "packagefee":40
+
+    },{
+        "id" :9,
+        "name" : "BLACK BERRY SERIES X",
+        "price" : 77999,
+        "image": "https://www.pngmart.com/files/7/Blackberry-Mobile-PNG-HD.png",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor",
+        "discount":3999,
+        "deliverycharge":40,
+        "packagefee":40
+
+    },{
+        "id" :10,
+        "name" : "NOTHING PHONE",
+        "price" : 45999,
+        "image": "https://rukminim2.flixcart.com/image/416/416/l5h2xe80/mobile/5/x/r/-original-imagg4xza5rehdqv.jpeg?q=70",
+        "camera":"12MP + 12MP | 12MP Front Camera",
+        "ram": "6 GB RAM",
+        "rom" : "128 GB ROM",
+        "processor" : "A14 Bionic Chip Processor",
+        "discount":1699,
         "deliverycharge":40,
         "packagefee":40
 
