@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/E-commerce_Website/static/css/main.51f58f0b.css",
+    "main.js": "/E-commerce_Website/static/js/main.44c75dbe.js",
+    "static/media/Bg.png": "/E-commerce_Website/static/media/Bg.3152a703879bb5255b38.png",
+    "static/media/debitcard.png": "/E-commerce_Website/static/media/debitcard.7cf16dab6b8436e64003.png",
+    "static/media/rupaypng.png": "/E-commerce_Website/static/media/rupaypng.063d69d6af6f3230e2d8.png",
+    "static/media/upi.png": "/E-commerce_Website/static/media/upi.ce896eee8e98adfd4d1a.png",
+    "static/media/mainlogo.png": "/E-commerce_Website/static/media/mainlogo.ed053105f59a1244fc0a.png",
+    "static/media/mastercard.png": "/E-commerce_Website/static/media/mastercard.9a3c9aa993f4d0ee6a58.png",
+    "index.html": "/E-commerce_Website/index.html",
+    "main.51f58f0b.css.map": "/E-commerce_Website/static/css/main.51f58f0b.css.map",
+    "main.44c75dbe.js.map": "/E-commerce_Website/static/js/main.44c75dbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51f58f0b.css",
+    "static/js/main.44c75dbe.js"
+  ]
+}
