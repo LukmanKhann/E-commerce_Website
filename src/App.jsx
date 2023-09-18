@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       <CartProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/E-commerce_Website">
           <NavigationBar />
           <Routes>
             <Route path="/" element = {<Home/>}></Route>
